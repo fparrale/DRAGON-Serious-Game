@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tesis_front_end": {
+    "DRAGON-Serious-Game": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tesis_front_end",
+            "outputPath": "dist/DRAGON-Serious-Game",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tesis_front_end:build:production"
+              "browserTarget": "DRAGON-Serious-Game:build:production"
             },
             "development": {
-              "browserTarget": "tesis_front_end:build:development"
+              "browserTarget": "DRAGON-Serious-Game:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tesis_front_end:build"
+            "browserTarget": "DRAGON-Serious-Game:build"
           }
         },
         "test": {
